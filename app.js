@@ -1,8 +1,10 @@
 const express = require("express")
 const config = require("config")
 const mongoose = require("mongoose")
-
+require("dotenv").config()
 const app = express()
+
+app.use("/api/auth", require("./routes/auth.routes"))
 
 PORT = config.get("port") || 5000
 
