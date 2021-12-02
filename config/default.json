@@ -1,4 +1,5 @@
 {
   "port": 5000,
+  "jwtSecret": "ludanova random app",
   "mongoUri": "mongodb+srv://*****:*******@cluster0.rtws1.mongodb.net/myFirstDatabase?retryWrites=true&w=majority"
 }
